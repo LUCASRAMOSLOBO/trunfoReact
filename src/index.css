@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  justify-content: center;
+  background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_926387-MLB44967098162_022021-F.webp);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 100vh;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #2d88ff5e;
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 9;
+}
